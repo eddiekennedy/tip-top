@@ -1,0 +1,15 @@
+@import url('reset.css');
+@import url('tip_top.css');
+@font-face{font-family: 'Chunk'; src:url('../fonts/Chunk.ttf');}
+@font-face{font-family: 'League'; src:url('../fonts/LeagueGothic.otf');}
+/* * * Styles * * */
+body{padding:0 30px; background:#ecfffd; font-family:verdana; color:#333;}
+a.link{color:#aaa; text-decoration:none; border-bottom:1px dashed #aaa;}
+a.link:hover{border:none;}
+header,section,footer{width:400px; margin:0 auto;}
+
+/** Content */
+/** Demo */
+section#demo{}
+#demo ul{list-style:none; text-align:center; margin:35px 0 0 0; padding:30px 0; background:rgba(100,100,100,.1); border:1px solid rgba(100,100,100,.1);}
+.button{text-decoration:none; font-family:'League'; font-size:40px; color:#fff; background:rgba(100,100,100,.2); padding:0 5px; border-bottom:1px solid rgba(100,100,100,.2);  border-left:1px solid rgba(100,100,100,.2); padding:5px 20px;}

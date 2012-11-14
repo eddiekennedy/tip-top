@@ -1,0 +1,36 @@
+@import url('reset.css');
+@font-face{font-family: 'Chunk'; src:url('../fonts/Chunk.ttf');}
+@font-face{font-family: 'League'; src:url('../fonts/LeagueGothic.otf');}
+body{padding:0 30px; background:#ecfffd; font-family:verdana; color:#333;}
+a.link{color:#aaa; text-decoration:none; border-bottom:1px dashed #aaa;}
+a.link:hover{border:none;}
+header, section, footer{width:600px; margin:0 auto; padding:12px 0 0 0;}
+h1, h2, #download_link{font-family:'Chunk';}
+h1{font-size:40px; padding:10px 0;}
+h2{font-size:24px; line-height:30px;}
+header{padding-bottom:50px;}
+#download_link{float:right; font-size:14px; background:#353a5e; padding:10px 15px 7px 15px; color:#fff; text-decoration:none; 
+	-moz-box-shadow:-1px 1px 0 #ccc, -2px 2px 0 #ccc; 
+	-webkit-box-shadow:-1px 1px 0 #ccc, -2px 2px 0 #ccc;
+	-moz-border-radius:3px; -webkit-border-radius:3px;
+	display:none;}
+#download_link:active{
+	-moz-box-shadow:-1px 1px 0 #ccc, -2px 2px 0 #ccc, -3px 3px 0 #ccc;
+	-webkit-box-shadow:-1px 1px 0 #ccc, -2px 2px 0 #ccc, -3px 3px 0 #ccc;}
+#download_link span{font-size:12px; color:#eee;}
+#demo{
+	padding:35px 0 50px 0; 
+	background:rgba(100,100,100,.1); 
+	border-top:1px solid rgba(100,100,100,.3); 
+	border-bottom:1px solid rgba(100,100,100,.1); 
+	border-left:1px solid rgba(100,100,100,.3); 
+	border-right:1px solid rgba(100,100,100,.1); 
+	text-align:center;}
+.button{
+	padding:5px 20px; background:rgba(100,100,100,.2); 
+	border-bottom:1px solid rgba(100,100,100,.2);  border-left:1px solid rgba(100,100,100,.2);
+	font-family:'League'; font-size:40px; color:#fff;
+	text-decoration:none;
+	text-shadow:-1px 1px 0 rgba(100,100,100,.5);
+	-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+footer{color:#aaa; font-size:16px; font-size:12px; padding-top:24px;}

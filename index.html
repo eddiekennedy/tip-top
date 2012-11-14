@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>tipTop.js - A Lightweight Tooltip Plugin for jQuery</title>
+	<link rel="stylesheet" href="css/main-v2.css" />
+	<style>
+		/* TipTop Styles - Paste these into your stylesheet */
+		.tiptop{
+			position:absolute; z-index:2000; margin:-3px 0 0 0;}
+		.tiptop-content{
+			padding:5px 15px 7px 15px; background:#111; border:1px solid #000; border-bottom:none;
+			color:#fff; font-family:verdana; font-size:12px; text-align:center; white-space:nowrap;
+			-moz-border-radius:3px; -webkit-border-radius:3px; 
+			background-image:-moz-linear-gradient(100% 100% 90deg, #111, #333);}
+		.tiptop-point{
+			width: 0; height:0; margin: 0 auto; font-size: 0px; line-height: 0px;
+			border-top: 7px solid #111; border-left: 7px solid transparent; border-right: 7px solid transparent;}
+	</style>
+</head>
+<body>
+	<section id="container">
+		<ul>
+			<li>
+				<a class="button" title="I am a bubble.">Hover over me.</a>
+			</li>
+			<li>
+				<a class="button" title="I too am a bubble.">Hover over me.</a>
+			</li>
+		</ul>
+	<div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script src="js/jquery.tipTop.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.button').tipTop();
+		});
+	</script>
+</body>
+</html>
